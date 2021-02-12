@@ -1,0 +1,33 @@
+{
+    "name": "jarada/flarum-ext-nsbbcode",
+    "description": "Additional BB Code to support NS",
+    "keywords": [
+        "extension",
+        "flarum",
+        "bbcode"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Lowe",
+            "email": "jarada@jarada.co.uk",
+            "homepage": "http://jarada.co.uk/"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.14",
+        "flarum/bbcode": "^0.1.0-beta.12"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "NS BBCode",
+            "category": "formatting",
+            "icon": {
+                "name": "fas fa-feather",
+                "backgroundColor": "#000",
+                "color": "#519E8A"
+            }
+        }
+    }
+}
